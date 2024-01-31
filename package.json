@@ -1,0 +1,19 @@
+{
+  "name": "wanderlust",
+  "version": "1.0.0",
+  "description": "-Which problem project is solving?\r  A travel planning and blogging website addresses several challenges and fulfills various needs for both travelers and content creators. Here are some of the problems that these websites aim to solve:",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "source"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axion": "^0.1.0",
+    "express": "^4.18.2",
+    "loader": "^2.1.1",
+    "mongoclient": "^1.0.3",
+    "mongodb": "^6.3.0"
+  }
+}

@@ -1,0 +1,53 @@
+.navbar{
+    display: flex;
+   
+    height: 5rem;
+  
+}
+.topnav{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.topnav a{
+    text-decoration: none;
+    padding: 0.8em 1.5em 0.8em 1.5em;
+    font-size: 1.5em;
+    color: white;
+    font-family: "Rubik", sans-serif;
+}
+.topnav a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #e58554;
+}
+.buttons{
+    position: absolute;
+    right: 70px;
+}
+.buttons{
+    text-decoration: none;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    width: 17rem;
+    color: white;
+    font-size: 1.3em;
+    font-family: "Rubik", sans-serif;
+}
+.signup{
+    padding: 0.5em 1em 0.5em 1em;
+    position: relative;
+    left: 30px;
+    color: white;
+    background-color: #e58554 ;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+}
+.login{
+    text-decoration: none;
+    color: white;
+    font-family: "Rubik", sans-serif;
+}

@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url('travel1.png');
+    background-size: cover;
+}
+.content{
+    color: white;
+    
+   display: inline-block;
+    font-size: 4.5rem;
+    margin-top: 1.5em ;
+    margin-left: 3em;
+  
+    font-family: "Playfair Display", serif;
+  
+}
+.conten2{
+    font-size: 1.5rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    padding-bottom: 0;
+  
+}
+
+.content > :nth-child(2){
+    padding-bottom:1rem ;
+}
