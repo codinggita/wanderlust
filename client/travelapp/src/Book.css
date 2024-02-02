@@ -1,0 +1,66 @@
+input{
+    border: none;
+    border-color: transparent;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5em;
+}
+input{
+    outline: none;
+}
+
+.book{
+    display: inline-flex;
+    position: relative;
+    top:4rem;
+    background-color: white;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.book1{
+    background-color: white;
+    height: 8rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 11rem;
+
+
+}
+.book div{
+    padding: 10px;
+}
+.now{
+    font-size: 1.5rem;
+    color: white;
+    background-color:#e58554 ; 
+    width: 6rem;
+   text-align: center;
+  
+   display: flex;
+   align-items: center;
+   border-top-right-radius: 1.5rem;
+   border-bottom-right-radius: 1.5rem;
+}
+
+img{
+    height: 1em;
+    width: 1em;
+}
+.destination{
+    width: 11em;
+
+}
+.name{
+    
+    float: left;
+    padding-right: 1em;
+    padding-bottom: 1em;
+   
+}
+input[type="date"]{
+    display: block;
+}
+.bnow p{
+    padding-right: 0.5em;
+}
