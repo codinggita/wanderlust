@@ -9,13 +9,13 @@ function Navbar() {
       <div className="topnav">
         <NavLink to='/home'>Home</NavLink>
         <NavLink to='/explore'>Explore</NavLink>
-        <Link to='/travel'>Travel</Link>
-        <Link to='/blog'>Blog</Link>
-        <Link to='/pricing'>Pricing</Link>
+        <NavLink to='/travel'>Travel</NavLink>
+        <NavLink to='/blog'>Blog</NavLink>
+        <NavLink to='/pricing'>Pricing</NavLink>
       </div>
       <div className="buttons">
-        <Link className="login" to='/logins'>Login</Link>
-        <Link className="signup" to='/signups'>Signup</Link>
+        <NavLink className="login" to='/logins'>Login</NavLink>
+        <NavLink className="signup" to='/signups'>Signup</NavLink>
       </div>
     </div>
     <Outlet/>
