@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
     <div className='body'>
-      {/* <img src={lo} className='image'></img> */}
+   
       <Navbar></Navbar>
      <div className="content">
         <p>Start your unforgettable </p>
