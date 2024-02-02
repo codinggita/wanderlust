@@ -17,7 +17,7 @@ import {Routes,Route } from 'react-router-dom';
 function App() {
   return (
     <>
-    {/* <Home></Home> */}
+  
 <Routes>
   <Route path='/home' exact element={<Home/>}/>
   <Route path="/explore" element={<Explore/>}/>
