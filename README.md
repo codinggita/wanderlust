@@ -84,7 +84,5 @@ Provide a centralized platform for users to manage all aspects of their trip, fr
 7. login/Signup
 
 
-
-LINK of Deployed Website
-
+Link of website
 https://twanderlust.netlify.app/
