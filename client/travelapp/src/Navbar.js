@@ -7,7 +7,7 @@ function Navbar() {
     <>
     <div className='navbar'>
       <div className="topnav">
-        <NavLink to='/home'>Home</NavLink>
+        <Link to='/home'>Home</Link>
         <NavLink to='/explore'>Explore</NavLink>
         <NavLink to='/travel'>Travel</NavLink>
         <NavLink to='/blog'>Blog</NavLink>
