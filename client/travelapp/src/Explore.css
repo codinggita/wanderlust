@@ -1,0 +1,30 @@
+body{margin: 0;
+padding: 0;}
+.head1{
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    margin-left: 5rem;
+    /* margin-top: 3rem; */
+}
+hr{
+    width: 15%;
+    margin-left: 5rem;
+    border-color: #e58554;
+    margin-bottom: 2rem;
+}
+.head2{
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+}
+body{
+overflow-x: hidden;
+overflow-y: hidden;
+}
+.ex{border: 2px solid 	#FAC898;
+    height: 100vh;
+    background-color: 	#FAC898;
+}
+.headings{
+    margin-top: 2rem;
+   
+}
