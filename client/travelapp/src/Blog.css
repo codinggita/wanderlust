@@ -1,0 +1,30 @@
+.colors{
+    background-color:black;
+    height: 100vh;
+    width: 100vw;
+}
+.heading1{
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    color: white;
+}
+.hrs{
+    width: 8%;
+    margin-left: 7rem;
+
+}
+
+.heading2{
+    margin-left: 7rem;
+    color: white;
+}
+.blogslider{
+margin-top: 3rem;
+   margin-left: 7rem;
+margin-right: 7rem;
+}
+.nameh{
+    border: 2px solid black
+}
