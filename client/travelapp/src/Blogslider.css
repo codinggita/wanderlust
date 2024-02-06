@@ -1,0 +1,45 @@
+.carousel-item {
+    display: flex;
+
+  }
+  
+  .image-container {
+
+    height: 60vh;
+    width: 40vw;
+
+  }
+  .image-container img{
+    
+    height: 60vh;
+    width: 40vw;
+    border-radius: 10%;
+  }
+   
+  .content-container {
+
+    position: relative;
+    /* bottom: 30px; */
+    /* right: 40px; */
+    /* display: inline-flex; */
+    width: 30vw;
+    font-family: "Playfair Display", serif;
+  }
+.itemss{
+    display: flex;
+    gap:2rem;
+}
+
+.content-container p:first-child{
+    font-size: 3rem;
+    padding-bottom: .5rem;
+    padding-top: 1.5rem;
+}
+.content-container p:nth-child(2){
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.content-container p:nth-child(3){
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
