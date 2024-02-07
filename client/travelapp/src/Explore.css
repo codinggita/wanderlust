@@ -5,26 +5,36 @@ padding: 0;}
     font-size: 3rem;
     margin-left: 5rem;
     /* margin-top: 3rem; */
+   color: #e58554;
 }
 hr{
     width: 15%;
     margin-left: 5rem;
-    border-color: #e58554;
+    border-color: white;
     margin-bottom: 2rem;
 }
 .head2{
     margin-left: 5rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 1rem; */
+    color: white;
 }
 body{
 overflow-x: hidden;
 overflow-y: hidden;
 }
-.ex{border: 2px solid 	#FAC898;
+.ex{
+    /* border: 2px solid 	#FAC898; */
     height: 100vh;
-    background-color: 	#FAC898;
+    background-color: black;
 }
 .headings{
-    margin-top: 2rem;
+    margin-top: 4rem;
    
+}
+
+.cs{
+    width: 50vw;
+
+   margin-left: 4rem;
+   margin-top: 4rem;
 }
