@@ -15,7 +15,7 @@ const Carousel = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     customPaging: function (i) {
       // Provide custom styles for dots based on active and inactive states
@@ -36,59 +36,73 @@ const Carousel = () => {
 
   return (
     <div className='emaaa'>
-       <div className='icons'>
+      {/* <div className='icons'>
       <div className="ico">
         <div className="l1"><FontAwesomeIcon className='less' icon={faLessThan} onClick={() => slider.current.slickPrev()}/></div>
         <div className="l2"><FontAwesomeIcon className='greater' icon={faGreaterThan} onClick={() => slider.current.slickNext()} /></div>
       
       </div>
       
-    </div>
+    </div> */}
       <Slider ref={slider} {...settings}>
         <div className='images'>
+          <div className="ims">
           <img src={items} alt="Slide 1" />
+          </div>
           <div className="abouts">
             <div className="a1">Monument of Berlin</div>
             <div className="h2"><FontAwesomeIcon className='location' icon={faMapMarker} />Berlin, Germany</div>
           </div>
         </div>
         <div className='images'>
-        <img src={items} alt="Slide 1" />
+        <div className="ims">
+          <img src={items} alt="Slide 1" />
+          </div>
         <div className="abouts">
             <div className="a1">Monument of Berlin</div>
             <div className="h2"><FontAwesomeIcon className='location' icon={faMapMarker} />Berlin, Germany</div>
           </div>
         </div>
         <div className='images'>
-        <img src={items} alt="Slide 1" />
+        <div className="ims">
+          <img src={items} alt="Slide 1" />
+          </div>
         <div className="abouts">
             <div className="a1">Monument of Berlin</div>
             <div className="h2"><FontAwesomeIcon className='location' icon={faMapMarker} />Berlin, Germany</div>
           </div>
         </div>
         <div className='images'>
+        <div className="ims">
           <img src={items} alt="Slide 1" />
+          </div>
           <div className="abouts">
             <div className="a1">Monument of Berlin</div>
             <div className="h2"><FontAwesomeIcon className='location' icon={faMapMarker} />Berlin, Germany</div>
           </div>
         </div>
         <div className='images'>
+        <div className="ims">
           <img src={items} alt="Slide 1" />
+          </div>
           <div className="abouts">
             <div className="a1">Monument of Berlin</div>
             <div className="h2"><FontAwesomeIcon className='location' icon={faMapMarker} />Berlin, Germany</div>
           </div>
         </div>
         <div className='images'>
+        <div className="ims">
           <img src={items} alt="Slide 1" />
+          </div>
           <div className="abouts">
             <div className="a1">Monument of Berlin</div>
             <div className="h2"><FontAwesomeIcon className='location' icon={faMapMarker} />Berlin, Germany</div>
           </div>
         </div>
         <div className='images'>
+        <div className="ims">
           <img src={items} alt="Slide 1" />
+          </div>
           <div className="abouts">
             <div className="a1">Monument of Berlin</div>
             <div className="h2"><FontAwesomeIcon className='location' icon={faMapMarker} />Berlin, Germany</div>

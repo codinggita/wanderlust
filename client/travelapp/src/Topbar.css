@@ -1,0 +1,21 @@
+.topnav1{
+    
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid white; 
+    width: 50%;
+  border-radius: 40px;
+  margin-top: 1rem;
+}
+.topnav1 a{
+    text-decoration: none;
+    padding: 0.8em 1.5em 0.8em 1.5em;
+    font-size: 1.5em;
+    color: white;
+    font-family: "Rubik", sans-serif;
+}
+.topbars{
+    text-align: center;
+}
