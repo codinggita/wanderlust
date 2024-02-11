@@ -5,35 +5,41 @@
   
   .image-container {
 
-    height: 60vh;
-    width: 40vw;
+    height: 50vh;
+    width: 30vw;
 
   }
   .image-container img{
     
-    height: 60vh;
-    width: 40vw;
+    height: 50vh;
+    width: 30vw;
     border-radius: 10%;
   }
    
   .content-container {
 
     position: relative;
+    background-color: white;
+ padding: 2rem;
+
     /* bottom: 30px; */
     /* right: 40px; */
     /* display: inline-flex; */
-    width: 30vw;
+    width: 40vw;
     font-family: "Playfair Display", serif;
+    height: 40vh;
   }
 .itemss{
     display: flex;
     gap:2rem;
+    /* border: 2px solid red; */
+    justify-content: center;
 }
 
 .content-container p:first-child{
     font-size: 3rem;
     padding-bottom: .5rem;
-    padding-top: 1.5rem;
+    /* padding-top: 1rem; */
 }
 .content-container p:nth-child(2){
     font-size: 2rem;

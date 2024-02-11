@@ -14,8 +14,8 @@ function Navbar() {
         <NavLink to='/pricing'>Pricing</NavLink>
       </div>
       <div className="buttons">
-        <NavLink className="login" to='/logins'>Login</NavLink>
-        <NavLink className="signup" to='/signups'>Signup</NavLink>
+        <NavLink className="login" to='/loginform'>Login</NavLink>
+        <NavLink className="signup" to='/signupform'>Signup</NavLink>
       </div>
     </div>
     <Outlet/>
