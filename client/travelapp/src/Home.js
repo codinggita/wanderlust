@@ -4,6 +4,7 @@ import lo from './travel1.png'
 import Navbar from './Navbar'
 import Book from './Book'
 
+
 function Home() {
   return (
     <>
@@ -19,6 +20,7 @@ function Home() {
      </div>
      <Book></Book>
     </div>
+
     </>
   )
 }

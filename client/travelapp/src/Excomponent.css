@@ -1,0 +1,42 @@
+.container {
+    position: relative;
+    width: 200px; /* Set the width of the container */
+    height: 200px; /* Set the height of the container */
+    overflow: visible; /* Allow content to overflow */
+
+    top: 20px;
+    left: 30px;
+    background-color: rgb(243, 211, 151);
+  }
+  
+  .container img {
+    position: absolute;
+    top: -60px; /* Adjust as needed */
+    left: -20px; /* Adjust as needed */
+    width: calc(100% + 40px); /* Add extra width to account for overflow */
+    height: calc(100% + 40px); /* Add extra height to account for overflow */
+    z-index: 2;
+  }
+  .container p{
+    font-weight: bolder;
+    margin-left: 4rem;
+    margin-top: 0;
+  }
+
+  .excontent{
+   
+
+    width: 160px;
+    margin: auto;
+    text-align: center;
+background-color: white;
+border-radius: 5px;
+    padding: 1rem;
+  }
+.ex1{
+    position: absolute;
+    z-index: 3;
+bottom: 10px;
+    width: 200px;
+    
+}

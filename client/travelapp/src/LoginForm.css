@@ -1,0 +1,51 @@
+
+.log{
+  color: rgb(250, 171, 23);
+  padding: 2rem;
+  font-size: 3rem;
+}
+.all{
+  border: 2px solid orange;
+ display: inline-block;
+ text-align: center;
+box-shadow: 10px 10px 8px rgb(239, 179, 66);
+}
+.form{
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.btn{
+  margin-top: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 1.5;
+}
+.tosignup{
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+}
+
+.alllogin{
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+color: rgb(248, 246, 246);
+}
+.loginssss{
+ border: transparent;
+ outline: none;
+ border-color: transparent;
+  border-bottom: 2px solid orange;
+  margin-left: 1rem;
+  color: white;
+  font-size: 1.5rem;
+}
+.sign{
+  text-decoration: none;
+  color: orange;
+}

@@ -18,15 +18,10 @@ const Blogslider = () => {
     slidesToScroll: 1,
   };
 
-  return (<>
-   <div className='icons'>
-      <div className="ico">
-        <div className="l1"><FontAwesomeIcon className='less' icon={faLessThan} onClick={() => slider.current.slickPrev()}/></div>
-        <div className="l2"><FontAwesomeIcon className='greater' icon={faGreaterThan} onClick={() => slider.current.slickNext()} /></div>
+  return (
+   
       
-      </div>
-      
-    </div>
+
     <Slider  ref={slider} {...settings}>
       <div className="carousel-item">
         <div className="itemss">
@@ -50,14 +45,14 @@ const Blogslider = () => {
         <div className="content-container">
           <p>Beautiful Italy</p>
           <p>Let's Travel</p>
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis magni dicta deleniti ipsam sed consequatur vero officia excepturi ab voluptate, doloremque, blanditiis, dolorum ullam error. Illo veritatis tempora dolore quisquam minus quibusdam fugit et sapiente ad expedita animi magni, sint recusandae dolor, vitae adipisci laborum pariatur debitis sequi sed quae rem, modi nisi. Alias, voluptatem tempora officiis maiores ducimus labore iure voluptatibus dolor. Harum inventore natus aut atque, maiores placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus asperiores harum aliquid quis placeat commodi optio dignissimos ab laudantium? Quos?</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque at ut quidem rem soluta iure beatae expedita, blanditiis ipsa unde recusandae eos in accusantium voluptatum nulla fuga laudantium, labore earum est voluptate fugiat animi veritatis totam? Officia, fuga, dignissimos suscipit delectus at autem enim nulla possimus, doloremque dolorem culpa ex?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cupiditate numquam saepe voluptatem, optio vitae quas? Esse quos quisquam facere quo magni dolores perspiciatis temporibus. Nulla reiciendis aliquid consectetur sequi.</p>
         </div>
         </div>
         
       </div>
 
       {/* Add more slides as needed */}
-    </Slider></>
+    </Slider>
    
   );
 };
